@@ -1,7 +1,6 @@
 from flask import Flask, request, render_template, jsonify
 import google.generativeai as genai
 import google.ai.generativelanguage as glm
-import tensorflow as tf
 
 
 app = Flask(__name__)
